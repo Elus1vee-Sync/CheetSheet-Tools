@@ -42,3 +42,4 @@ nmap 10.10.19.120 -sU -p- --min-rate 5000 -oG AllPorts
 ````markdown
 nmap 10.10.19.120 -sU -p- -oG AllPorts
 ````
+## Discovery services
