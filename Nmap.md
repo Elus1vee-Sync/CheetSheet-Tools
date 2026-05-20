@@ -1,9 +1,6 @@
 
-<p align="center">
-  <img src="../../assets/logo.png" width="220">
-</p>
 
-<h1 align="center">⚔️ Nmap Cheat Sheet</h1>
+<h1 align="center">Nmap Cheat Sheet</h1>
 
 <p align="center">
   Fast reference guide for enumeration, scanning and offensive security workflows.
