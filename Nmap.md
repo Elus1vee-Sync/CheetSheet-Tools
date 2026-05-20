@@ -112,3 +112,6 @@ nmap --script 'smtp-*' -p25 target
 ````markdown
 nmap -sS target
 ````
+````markdown
+nmap -sS -Pn -n -T1 target
+````
