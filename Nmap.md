@@ -36,10 +36,18 @@ nmap 10.10.19.120 -p- --open -n -Pn --min-rate 5000 -oN AllPorts
 ````
 
 ````markdown
-nmap 10.10.19.120 -sU -p- --min-rate 5000 -oG AllPorts
+nmap 10.10.19.120 -sU -p- --min-rate 5000 -oN AllPorts
 ````
 
 ````markdown
-nmap 10.10.19.120 -sU -p- -oG AllPorts
+nmap 10.10.19.120 -sU -p- -oN AllPorts
 ````
 ## Discovery services
+
+````markdown
+nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV -oG Machine01.txt
+````
+> -sC default script and -sV detec version services
+
+
+
