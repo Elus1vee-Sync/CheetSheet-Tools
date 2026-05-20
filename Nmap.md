@@ -1,5 +1,3 @@
-
-
 <h1 align="center">Nmap Cheat Sheet</h1>
 
 <p align="center">
@@ -14,6 +12,7 @@
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
 
+## Deteccion Open Ports TCP and UDP
 
 ````markdown
 nmap 10.10.19.120 -p- --open -n -Pn -oG AllPorts
@@ -34,4 +33,12 @@ nmap 10.10.19.120 -p- --open -n -Pn -T5 -oG AllPorts
 
 ````markdown
 nmap 10.10.19.120 -p- --open -n -Pn --min-rate 5000 -oG AllPorts
+````
+
+````markdown
+nmap 10.10.19.120 -sU -p- --min-rate 5000 -oG AllPorts
+````
+
+````markdown
+nmap 10.10.19.120 -sU -p- -oG AllPorts
 ````
