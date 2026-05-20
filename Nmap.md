@@ -120,3 +120,44 @@ nmap -sS -Pn -n -T1 target
 ````markdown
 nmap -sS -Pn -n -p- -T1 target
 ````
+
+````markdown
+nmap -sS --scan-delay 5s target
+````
+
+````markdown
+nmap -sS -T0 --scan-delay 10s target
+````
+
+> ## Null Scan
+````markdown
+nmap -sN target
+````
+````markdown
+nmap -sN -T1 --scan-delay 5s target
+````
+````markdown
+nmap -sN -f target
+````
+
+> ## Fin Scan
+````markdown
+nmap -sF target
+````
+````markdown
+nmap -sF -T1 --scan-delay 5s target
+````
+````markdown
+nmap -sF -f target
+````
+
+> ## Xmas Scan
+````markdown
+nmap -sX target
+````
+````markdown
+nmap -sX -T1 --scan-delay 5s target
+````
+````markdown
+nmap -sX -f target
+````
