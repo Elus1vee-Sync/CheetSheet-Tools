@@ -88,6 +88,10 @@ nmap --script 'smtp-*' -p25 10.10.10.10
 ```
 
 ```markdown
+nmap --script 'imap-*' -p143,993 10.10.10.10
+```
+
+```markdown
 nmap --script 'ssh-*' -p22 10.10.10.10
 ```
 
