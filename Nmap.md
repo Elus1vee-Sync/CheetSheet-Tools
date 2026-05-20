@@ -63,7 +63,7 @@ nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV --min-rate 5000 -oG 
 nmap --script 'smb-*' -p445 10.10.10.10
 ````
 
-```bash
+```markdown
 nmap --script 'ssl-*' -p443 10.10.10.10
 ```
 
@@ -79,11 +79,11 @@ nmap --script 'dns-*' -p53 10.10.10.10
 nmap --script 'snmp-*' -sU -p161 10.10.10.10
 ````
 
-```bash
+```markdown
 nmap --script 'smtp-*' -p25 10.10.10.10
 ```
 
-```bash
+```markdown
 nmap --script 'ssh-*' -p22 10.10.10.10
 ```
 
