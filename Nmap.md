@@ -15,11 +15,11 @@
 ## Deteccion Open Ports TCP and UDP
 
 ````markdown
-nmap 10.10.19.120 -p- --open -n -Pn -oG AllPorts
+nmap 10.10.19.120 -p- --open -n -Pn -oN AllPorts
 ```` 
 
 ````markdown
-nmap 10.10.19.120 -p- --open -n -Pn -T5 -oG AllPorts
+nmap 10.10.19.120 -p- --open -n -Pn -T5 -oN AllPorts
 ````
 | Template | Nombre     | Velocidad  | Uso               |
 | -------- | ---------- | ---------- | ----------------- |
@@ -32,7 +32,7 @@ nmap 10.10.19.120 -p- --open -n -Pn -T5 -oG AllPorts
 
 
 ````markdown
-nmap 10.10.19.120 -p- --open -n -Pn --min-rate 5000 -oG AllPorts
+nmap 10.10.19.120 -p- --open -n -Pn --min-rate 5000 -oN AllPorts
 ````
 
 ````markdown
