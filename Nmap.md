@@ -60,51 +60,55 @@ nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV --min-rate 5000 -oG 
 ## Dicovery Services
 
 ````markdown
-nmap --script 'smb-*' -p445 10.10.10.10
+nmap --script 'smb-*' -p445 target
 ````
 
 ````markdown
-nmap --script 'smb2-*' -p445 10.10.10.10
+nmap --script 'smb2-*' -p445 target
 ````
 
 ```markdown
-nmap --script 'ssl-*' -p443 10.10.10.10
+nmap --script 'ssl-*' -p443 target
 ```
 
 ````markdown
-nmap --script 'ftp-*' -p21 10.10.10.10
+nmap --script 'ftp-*' -p21 target
 ````
 
 ````markdown
-nmap --script 'dns-*' -p53 10.10.10.10
+nmap --script 'dns-*' -p53 target
 ````
 
 ````markdown
-nmap --script 'snmp-*' -sU -p161 10.10.10.10
+nmap --script 'snmp-*' -sU -p161 target
 ````
 
 ```markdown
-nmap --script 'ssh-*' -p22 10.10.10.10
+nmap --script 'ssh-*' -p22 target
 ```
 
 ```markdown
-nmap --script 'mysql-*' -p3306 10.10.10.10
+nmap --script 'mysql-*' -p3306 target
 ```
 
 ```markdown
-nmap --script 'ms-sql-*' -p1433,1434 10.10.10.10
+nmap --script 'ms-sql-*' -p1433,1434 target
 ```
 
 ```markdown
-nmap --script 'imap-*' -p143,993 10.10.10.10
+nmap --script 'imap-*' -p143,993 target
 ```
 
 ```markdown
-nmap --script 'pop3-*' -p110,995 10.10.10.10
+nmap --script 'pop3-*' -p110,995 target
 ```
 
 ```markdown
-nmap --script 'smtp-*' -p25 10.10.10.10
+nmap --script 'smtp-*' -p25 target
 ```
 
+## Silent scanning
 
+````markdown
+nmap -sS target
+````
