@@ -91,3 +91,7 @@ nmap --script 'smtp-*' -p25 10.10.10.10
 nmap --script 'ssh-*' -p22 10.10.10.10
 ```
 
+```markdown
+nmap --script 'mysql-*' -p3306 10.10.10.10
+```
+
