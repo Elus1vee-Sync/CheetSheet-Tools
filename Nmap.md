@@ -42,7 +42,7 @@ nmap 10.10.19.120 -sU -p- --min-rate 5000 -oN AllPorts
 ````markdown
 nmap 10.10.19.120 -sU -p- -oN AllPorts
 ````
-## Discovery services
+## Recon services
 
 ````markdown
 nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV -oG Machine01.txt
@@ -52,9 +52,38 @@ nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV -oG Machine01.txt
 ````markdown
 nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV -T4 -oG Machine01.txt
 ````
+
 ````markdown
 nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV --min-rate 5000 -oG Machine01.txt
 ````
 
+## Dicovery Services
 
+````markdown
+nmap --script 'smb-*' -p445 10.10.10.10
+````
+
+```bash
+nmap --script 'ssl-*' -p443 10.10.10.10
+```
+
+````markdown
+nmap --script 'ftp-*' -p21 10.10.10.10
+````
+
+````markdown
+nmap --script 'dns-*' -p53 10.10.10.10
+````
+
+````markdown
+nmap --script 'snmp-*' -sU -p161 10.10.10.10
+````
+
+```bash
+nmap --script 'smtp-*' -p25 10.10.10.10
+```
+
+```bash
+nmap --script 'ssh-*' -p22 10.10.10.10
+```
 
