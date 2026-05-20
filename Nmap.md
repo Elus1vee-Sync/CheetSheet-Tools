@@ -92,10 +92,18 @@ nmap --script 'imap-*' -p143,993 10.10.10.10
 ```
 
 ```markdown
+nmap --script 'pop3-*' -p110,995 10.10.10.10
+```
+
+```markdown
 nmap --script 'ssh-*' -p22 10.10.10.10
 ```
 
 ```markdown
 nmap --script 'mysql-*' -p3306 10.10.10.10
+```
+
+```markdown
+nmap --script 'ms-sql-*' -p1433,1434 10.10.10.10
 ```
 
