@@ -161,3 +161,28 @@ nmap -sX -T1 --scan-delay 5s target
 ````markdown
 nmap -sX -f target
 ````
+
+## Local Network
+
+| Técnica               | Comando                                     | Qué modifica              | Nivel OSI  |
+| --------------------- | ------------------------------------------- | ------------------------- | ---------- |
+| Decoys                | `nmap -D RND:5 target`                      | Añade IPs falsas          | Capa 3     |
+| Decoys personalizados | `nmap -D 1.1.1.1,8.8.8.8,ME target`         | Mezcla IP real con falsas | Capa 3     |
+| Source IP spoofing*   | `nmap -S IP target`                         | Falsifica IP origen       | Capa 3     |
+| Seleccionar interfaz  | `nmap -e tun0 target`                       | Interfaz origen           | Capa 2/3   |
+| Source Port spoof     | `nmap -g 53 target`                         | Puerto TCP/UDP origen     | Capa 4     |
+| Source Port largo     | `nmap --source-port 53 target`              | Igual que `-g`            | Capa 4     |
+| MAC aleatoria         | `nmap --spoof-mac 0 target`                 | MAC origen random         | Capa 2     |
+| MAC Cisco             | `nmap --spoof-mac Cisco target`             | Vendor MAC falso          | Capa 2     |
+| MAC personalizada     | `nmap --spoof-mac 00:11:22:33:44:55 target` | MAC específica            | Capa 2     |
+| Randomize hosts       | `nmap --randomize-hosts target`             | Orden aleatorio escaneo   | Lógica     |
+
+## Evasion de Firewall
+| Técnica                | Comando              | Explicación                                                                                                                                     |
+| ---------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fragmentación básica   | `nmap -f target`     | Divide los paquetes IP en fragmentos pequeños para intentar evadir firewalls/IDS simples que no reensamblan correctamente los paquetes.         |
+| Fragmentación agresiva | `nmap -ff target`    | Usa fragmentación más pequeña/agresiva que `-f`, generando más fragmentos TCP/IP y aumentando las posibilidades de evasión en filtros antiguos. |
+| SYN + fragmentación    | `nmap -sS -f target` | Combina SYN Stealth Scan con fragmentación. Envía paquetes SYN fragmentados para dificultar la inspección del firewall.                         |
+| Xmas + fragmentación   | `nmap -sX -f target` | Realiza un Xmas Scan usando paquetes fragmentados. Busca evadir IDS/firewalls antiguos usando flags TCP anómalas + fragmentación.               |
+| FIN + fragmentación    | `nmap -sF -f target` | Ejecuta un FIN Scan con paquetes fragmentados para intentar evitar detección por filtros TCP simples.                                           |
+
