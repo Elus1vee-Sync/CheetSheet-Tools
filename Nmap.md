@@ -49,5 +49,12 @@ nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV -oG Machine01.txt
 ````
 > -sC default script and -sV detec version services
 
+````markdown
+nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV -T4 -oG Machine01.txt
+````
+````markdown
+nmap 10.10.19.120 -p 80,22,8080,3075,4242,3000,21,1038 -sCV --min-rate 5000 -oG Machine01.txt
+````
+
 
 
