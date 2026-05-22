@@ -7,5 +7,5 @@ A technical quick-reference document that consolidates commands, parameters, pra
 </a>
 
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Netcat.md">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Netcat_simple.svg/1024px-Netcat_simple.svg.png" alt="Netcat" width="50">
+    <img src="https://upload.wikimedia.org/wikipedia/ru/2/29/Netcat_logo.png?_=20140105161904" alt="Netcat" width="50">
 </a>
