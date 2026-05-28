@@ -41,3 +41,4 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 ```
 john --incremental hash.txt
 ```
+## Unidentified hash
