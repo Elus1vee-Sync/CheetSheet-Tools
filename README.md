@@ -18,6 +18,8 @@ A technical quick-reference document that consolidates commands, parameters, pra
     <img src="https://srv.latostadora.com/designall.dll/john-the-ripper-logo--i:14138558805414138520;d:588054;w:240;b:FFFFFF;m:1;ha:ae67dea1ce5dddb3b033c973e7eaf411.jpg" width="47"></a>
 
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/ReverseShells.md">
-    <img src="https://raw.githubusercontent.com/3v4Si0N/HTTP-revshell/master/images/logo.png" width="70">
-</a>
+    <img src="https://raw.githubusercontent.com/3v4Si0N/HTTP-revshell/master/images/logo.png" width="70"></a>
+
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/NetExec.md">
+    <img src="https://www.netexec.wiki/~gitbook/image?url=https%3A%2F%2F361548579-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fb0qbsNvsXjRTsQcNipGM%252Fuploads%252Fgit-blob-728a8490edb22cdee9a338ce4e5217e58e9e875b%252FNetExec-Logo-White-Outlined.png%3Falt%3Dmedia&width=768&dpr=3&quality=100&sign=628630ff&sv=2" width="140"></a>
 
