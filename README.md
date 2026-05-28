@@ -10,7 +10,8 @@ A technical quick-reference document that consolidates commands, parameters, pra
 
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Hashcat.md">
     <img src="https://linuxsecurity.com/images/articles/features/hashcat_logo.png" width="50"></a>
-
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Metasploit.md">
+    <img src="https://raw.githubusercontent.com/rapid7/metasploit-framework/master/documentation/samples/metasploit-logo.png" width="50"></a>
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/John the Ripper.md">
     <img src="https://srv.latostadora.com/designall.dll/john-the-ripper-logo--i:14138558805414138520;d:588054;w:240;b:FFFFFF;m:1;ha:ae67dea1ce5dddb3b033c973e7eaf411.jpg" width="47"></a>
 
