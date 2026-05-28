@@ -35,7 +35,7 @@
 | `back` | Exit the current module context and return to global prompt. |
 
 ## Custom exploits
-> Hay veces que un exploit que esta en [exploit-db](https://www.exploit-db.com/) , lo tenemos que descar y meter directamente o si hemos creado nosotros un exploit personalizado.
+> Hay veces que un exploit que esta en [exploit-db](https://www.exploit-db.com/) , lo tenemos que descargar y meter directamente o si hemos creado nosotros un exploit personalizado.
 
 - Creamos la ruta donde alojarlos
 ```
