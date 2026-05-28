@@ -11,3 +11,10 @@
   <img src="https://img.shields.io/badge/OffSec-Passwords-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+## Singel Mode
+> En base a esta informacion: r0lf:$6$ues25dIanlctrWxg$nZHVz2z4kCy1760Ee28M1xtHdGoy0C2cYzZ8l2sVa1kIa8K9gAcdBP.GI6ng/qA4oaMrgElZ1Cb9OeXO4Fvy3/:0:0:Rolf Sebastian:/home/r0lf:/bin/bash
+
+````
+john --single passwd
+````
