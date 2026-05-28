@@ -73,11 +73,11 @@ route print
 searchsploit windows smb
 ```
 
--Ver contenido
+- Ver contenido
 ```
 searchsploit -x 42315
 ```
--Descargar
+- Descargar
 ```
 searchsploit -m 42315
 ```
