@@ -46,3 +46,7 @@ hashcat -a 0 -m 13100 krb_tgs.txt /usr/share/wordlists/rockyou.txt
 ```
 hashcat -a 0 -m 0 1b0556a75770563578569ae21392630c /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best66.rule 
 ```
+Mas reglas aqui 
+```
+ls -l /usr/share/hashcat/rules
+```
