@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
 
+## Administration
 | Command | Description |
 | :--- | :--- |
 | `msfconsole` | Launch the Metasploit Framework console. |
