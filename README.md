@@ -30,5 +30,4 @@ A technical quick-reference document that consolidates commands, parameters, pra
     <img src="https://www.kali.org/tools/enum4linux/images/enum4linux-logo.svg" width="50"></a>
 
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Impacket-Scripts.md">
-    <img src="https://www.kali.org/tools/impacket-scripts/images/impacket-scripts-logo.svg" width="50">
-</a>
+    <img src="https://www.onworks.net/imagescropped/smbclient.png_3.webp" width="75"></a>
