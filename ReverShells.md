@@ -1,7 +1,3 @@
-<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/ReverseShells.md">
-    <img src="https://raw.githubusercontent.com/Elus1vee-Sync/CheetSheet-Tools/main/assets/shells_logo.png" width="50" onerror="this.src='https://img.icons8.com/fluent/512/terminal.png'">
-</a>
-
 <h1 align="center">Reverse Shells Cheat Sheet</h1>
 
 <p align="center">
