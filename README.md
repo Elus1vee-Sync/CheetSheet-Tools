@@ -17,5 +17,7 @@ A technical quick-reference document that consolidates commands, parameters, pra
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/John the Ripper.md">
     <img src="https://srv.latostadora.com/designall.dll/john-the-ripper-logo--i:14138558805414138520;d:588054;w:240;b:FFFFFF;m:1;ha:ae67dea1ce5dddb3b033c973e7eaf411.jpg" width="47"></a>
 
-
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/ReverseShells.md">
+    <img src="https://raw.githubusercontent.com/3v4Si0N/HTTP-revshell/master/images/logo.png" width="70">
+</a>
 
