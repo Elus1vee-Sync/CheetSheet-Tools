@@ -33,3 +33,19 @@
 | `unset <VARIABLE>` | Clear a specific variable value. |
 | `exploit` or `run` | Execute the loaded module. |
 | `back` | Exit the current module context and return to global prompt. |
+
+## Custom exploits
+> Hay veces que un exploit que esta en [exploit-db](https://www.exploit-db.com/) , lo tenemos que descar y meter directamente o si hemos creado nosotros un exploit personalizado.
+
+- Creamos la ruta donde alojarlos
+```
+mkdir -p ~/.msf4/modules/exploits/custom
+```
+- Movemos el exploit descargado
+```
+mv 50064.rb ~/.msf4/modules/exploits/custom/lightweight_rce.rb
+```
+- Dentro de metasploit recargamos todos los exploits.
+```
+reload_all
+```
