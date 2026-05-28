@@ -41,3 +41,5 @@ A technical quick-reference document that consolidates commands, parameters, pra
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/WPScan.md">
     <img src="https://raw.githubusercontent.com/wpscanteam/wpscan/5af15af5e7d67ee7c6e5e4ebcf75c1dfabfa123b/images/wpscan_logo.png" width="110"></a>
 
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Exiftool.md">
+    <img src="https://www.kali.org/images/kali-tools-icon-missing.svg" width="60"></a>
