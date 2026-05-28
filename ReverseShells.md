@@ -22,6 +22,9 @@ script /dev/null -c bash
 CTRL+Z
 ```
 ```
+stty raw -echo; fg
+```
+```
 reset xterm
 ```
 ```
