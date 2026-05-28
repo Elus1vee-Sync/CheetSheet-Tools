@@ -43,4 +43,6 @@ hashcat -a 0 -m 13100 krb_tgs.txt /usr/share/wordlists/rockyou.txt
 
 ## Based Rule
 > Cogera cada una de las palabras de un diccionario y en base a las reglas lo alterar.
-
+```
+hashcat -a 0 -m 0 1b0556a75770563578569ae21392630c /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best66.rule 
+```
