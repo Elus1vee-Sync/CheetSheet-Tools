@@ -30,3 +30,5 @@ export TERM=xterm
 ```
 stty rows 44 columns 184
 ```
+
+> Alternativa para no tener que hacer todo esto [PENELOPE](https://github.com/brightio/penelope)
