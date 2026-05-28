@@ -33,5 +33,7 @@ A technical quick-reference document that consolidates commands, parameters, pra
     <img src="https://www.onworks.net/imagescropped/smbclient.png_3.webp" width="75"></a>
 
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Chisel.md">
-    <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042021/chisel.jpg?RJoL2cmvkM_I7Cx2FqniEnR2NiD5sTiq&itok=ONfmW5oC" width="45">
-</a>
+    <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042021/chisel.jpg?RJoL2cmvkM_I7Cx2FqniEnR2NiD5sTiq&itok=ONfmW5oC" width="45"></a>
+
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Socat.md">
+    <img src="https://www.kali.org/tools/socat/images/socat-logo.svg" width="45"></a>
