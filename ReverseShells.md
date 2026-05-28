@@ -13,3 +13,20 @@
 </p>
 
 ## Generador automatico via [Web](https://www.revshells.com/) de Shells y Payloads
+
+## Tratamiento de la TTY
+```
+script /dev/null -c bash
+```
+```
+CTRL+Z
+```
+```
+reset xterm
+```
+```
+export TERM=xterm
+```
+```
+stty rows 44 columns 184
+```
