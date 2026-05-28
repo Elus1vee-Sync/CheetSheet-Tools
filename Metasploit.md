@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
 
-## Administration
+## Status services
 | Command | Description |
 | :--- | :--- |
 | `msfconsole` | Launch the Metasploit Framework console. |
@@ -21,6 +21,7 @@
 | `db_status` | Check the current database connection status. |
 | `workspace -a <name>` | Create a new isolated project workspace. |
 
+## Movent interface
 | Command | Description |
 | :--- | :--- |
 | `search <exploit/cve/name>` | Search for modules, exploits, or scanners. |
