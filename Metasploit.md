@@ -49,3 +49,21 @@ mv 50064.rb ~/.msf4/modules/exploits/custom/lightweight_rce.rb
 ```
 reload_all
 ```
+
+## Pivoting
+> Paso 1: Mandar la sesión de Meterpreter al fondo
+```
+background
+```
+> Paso 2: Agregar la ruta de la red interna automáticamente usando la sesión activa
+```
+use auxiliary/server/socks_proxy
+```
+> O directamente mediante el comando de ruta de MSF:
+```
+route add 172.16.1.0 255.255.255.0 <ID_SESION>
+```
+> Paso 3: Verificar que la ruta está activa en Metasploit
+```
+route print
+```
