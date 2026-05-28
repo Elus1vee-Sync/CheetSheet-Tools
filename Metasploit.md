@@ -63,7 +63,6 @@ use auxiliary/server/socks_proxy
 ```
 route add 172.16.1.0 255.255.255.0 <ID_SESION>
 ```
-```
 > Paso 3: Verificar que la ruta está activa en Metasploit
 ```
 route print
@@ -73,6 +72,7 @@ route print
 ```
 searchsploit windows smb
 ```
+
 -Ver contenido
 ```
 searchsploit -x 42315
