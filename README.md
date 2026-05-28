@@ -8,4 +8,7 @@ A technical quick-reference document that consolidates commands, parameters, pra
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Netcat.md">
     <img src="https://upload.wikimedia.org/wikipedia/ru/2/29/Netcat_logo.png?_=20140105161904" width="50"></a>
 
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Hashcat.md">
+    <img src="https://linuxsecurity.com/images/articles/features/hashcat_logo.png" width="50">
+</a>
 
