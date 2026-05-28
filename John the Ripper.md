@@ -55,9 +55,10 @@ john --incremental hash.txt
 [+] RIPEMD-128 [JtR Format: ripemd-128]
 [+] Haval-128 [JtR Format: haval-128-4]
 ```
-
+### Table formats
+```
 john --format=zip --wordlist=/usr/share/wordlists/rockyou.txt hash_zip.txt
-
+```
 | Hash Format | Example Command | Description |
 | :--- | :--- | :--- |
 | **`zip`** | `john --format=zip hashes.txt` | ZIP (WinZip) password hashes |
