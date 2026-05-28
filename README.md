@@ -29,3 +29,6 @@ A technical quick-reference document that consolidates commands, parameters, pra
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Enum4linux.md">
     <img src="https://www.kali.org/tools/enum4linux/images/enum4linux-logo.svg" width="50"></a>
 
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Impacket-Scripts.md">
+    <img src="https://www.kali.org/tools/impacket-scripts/images/impacket-scripts-logo.svg" width="50">
+</a>
