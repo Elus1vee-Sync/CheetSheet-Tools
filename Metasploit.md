@@ -19,3 +19,4 @@
 | `msfdb init` | Initialize the Metasploit PostgreSQL database. |
 | `db_status` | Check the current database connection status. |
 | `workspace -a <name>` | Create a new isolated project workspace. |
+
