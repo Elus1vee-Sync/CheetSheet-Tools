@@ -30,7 +30,8 @@ NAITSABES        (r0lf)
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed. 
 ```
-
+## Wordlist Mode
 ```
 john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 ```
+
