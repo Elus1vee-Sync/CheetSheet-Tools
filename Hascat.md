@@ -25,7 +25,7 @@ Analyzing '$1$FNr44XZC$wQxY6HHLrgrGX0e1195k.1'
 [+] FreeBSD MD5 [Hashcat Mode: 500]
 ```
 
-## Diccionary Attack - Lista de todas la numeracion -m [aqui](https://hashcat.net/wiki/doku.php?id=example_hashes)
+## Diccionary Attack - Lista de todas la numeraciones -m [aqui](https://hashcat.net/wiki/doku.php?id=example_hashes)
 - Cracking Hash MD5
 ````
 hashcat -a 0 -m 0 81dc9bdb52d04dc20036dbd8313ed055 /usr/share/wordlists/rockyou.txt
