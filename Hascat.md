@@ -50,7 +50,17 @@ hashcat -a 0 -m 0 1b0556a75770563578569ae21392630c /usr/share/wordlists/rockyou.
 hashcat -a 0 -m 0 1b0556a75770563578569ae21392630c /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/combinator.rule
 ```
 
-## Based Mascare
+## Based Mask
 ```
 hashcat -a 3 -m 0 1e293d6912d074c0fd15844d803400dd '?u?l?l?l?l?d?s'
 ```
+| Símbolo | Conjunto de caracteres | Descripción |
+| :---: | :--- | :--- |
+| **`?l`** | `abcdefghijklmnopqrstuvwxyz` | Letras minúsculas (Lowercase) |
+| **`?u`** | `ABCDEFGHIJKLMNOPQRSTUVWXYZ` | Letras mayúsculas (Uppercase) |
+| **`?d`** | `0123456789` | Dígitos / Números (Digits) |
+| **`?h`** | `0123456789abcdef` | Hexadecimal en minúsculas |
+| **`?H`** | `0123456789ABCDEF` | Hexadecimal en mayúsculas |
+| **`?s`** | ` !"#$%&'()*+,-./:;<=>?@[\]^_`{\|}~` | Caracteres especiales y espacio (Símbolos) |
+| **`?a`** | Combina `?l`, `?u`, `?d` y `?s` | Todos los caracteres ASCII (All) |
+| **`?b`** | `0x00 - 0xff` | Todos los bytes posibles (Fuerza bruta pura) |
