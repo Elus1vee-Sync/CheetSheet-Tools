@@ -21,7 +21,7 @@
 | `db_status` | Check the current database connection status. |
 | `workspace -a <name>` | Create a new isolated project workspace. |
 
-## Movent interface
+## Navigating the interface
 | Command | Description |
 | :--- | :--- |
 | `search <exploit/cve/name>` | Search for modules, exploits, or scanners. |
