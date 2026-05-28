@@ -123,3 +123,26 @@ john --format=zip --wordlist=/usr/share/wordlists/rockyou.txt hash_zip.txt
 | **`sybasease`** | `john --format=sybasease hashes.txt` | Sybase ASE password hashes |
 | **`xsha`** | `john --format=xsha hashes.txt` | xsha (Extended SHA) password hashes |
 
+## Cracking Files
+> También es posible descifrar archivos protegidos con contraseña o cifrados con JtR.
+```
+locate *2john*
+```
+### Table Craking tools
+
+| Herramienta | Descripción |
+| :--- | :--- |
+| **`pdf2john`** | Convierte documentos PDF para John |
+| **`ssh2john`** | Convierte las claves privadas SSH para John |
+| **`mscash2john`** | Convierte hashes de MS Cash para John |
+| **`keychain2john`** | Convierte archivos de llavero de OS X para John |
+| **`rar2john`** | Convierte archivos RAR para John |
+| **`pfx2john`** | Convierte archivos PKCS#12 para John |
+| **`truecrypt_volume2john`** | Convierte volúmenes de TrueCrypt para John |
+| **`keepass2john`** | Convierte bases de datos de KeePass para John |
+| **`vncpcap2john`** | Convierte archivos VNC PCAP para John |
+| **`putty2john`** | Convierte las claves privadas de PuTTY para John |
+| **`zip2john`** | Convierte archivos ZIP para John |
+| **`hccap2john`** | Convierte las capturas de handshake WPA/WPA2 para John |
+| **`office2john`** | Convierte documentos de MS Office para John |
+| **`wpa2john`** | Convierte los handshakes WPA/WPA2 para John |
