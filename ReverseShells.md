@@ -12,4 +12,4 @@
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
 
-## Generador automatico via [Web](https://www.revshells.com/)
+## Generador automatico via [Web](https://www.revshells.com/) de Shells y Payloads
