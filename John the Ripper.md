@@ -45,13 +45,13 @@ john --incremental hash.txt
 > Hay en ocasiones que no es capaz de indetificar el tipo de Hash , entonces tenemos que probar 1 a 1 e indicarselos manualmente.
 > hashid -j 193069ceb0461e1d40d216e32c79c704
 > Analyzing '193069ceb0461e1d40d216e32c79c704'
-> [+] MD2 [JtR Format: md2]
-> [+] MD5 [JtR Format: raw-md5]
-> [+] MD4 [JtR Format: raw-md4]
-> [+] Double MD5 
-> [+] LM [JtR Format: lm]
-> [+] RIPEMD-128 [JtR Format: ripemd-128]
-> [+] Haval-128 [JtR Format: haval-128-4]
+ [+] MD2 [JtR Format: md2]
+ [+] MD5 [JtR Format: raw-md5]
+[+] MD4 [JtR Format: raw-md4]
+ [+] Double MD5 
+ [+] LM [JtR Format: lm]
+ [+] RIPEMD-128 [JtR Format: ripemd-128]
+ [+] Haval-128 [JtR Format: haval-128-4]
 
 
 
