@@ -38,3 +38,6 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 ## Incremental mode
 > Es un potente método de descifrado de contraseñas por fuerza bruta que genera contraseñas candidatas basándose en un modelo estadístico [Cadenas Markov](https://en.wikipedia.org/wiki/Markov_chain). 
 
+```
+john --incremental hash.txt
+```
