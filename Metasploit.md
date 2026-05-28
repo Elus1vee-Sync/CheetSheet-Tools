@@ -21,3 +21,14 @@
 | `db_status` | Check the current database connection status. |
 | `workspace -a <name>` | Create a new isolated project workspace. |
 
+| Command | Description |
+| :--- | :--- |
+| `search <exploit/cve/name>` | Search for modules, exploits, or scanners. |
+| `use <path/to/module>` | Select and load a specific module. |
+| `info` | Show details, targets, references, and options for the loaded module. |
+| `show options` | Display the required and optional parameters for the module. |
+| `set <VARIABLE> <value>` | Define a module variable (e.g., `set RHOSTS 10.10.10.5`). |
+| `setg <VARIABLE> <value>` | Define a variable globally across all modules in the session. |
+| `unset <VARIABLE>` | Clear a specific variable value. |
+| `exploit` or `run` | Execute the loaded module. |
+| `back` | Exit the current module context and return to global prompt. |
