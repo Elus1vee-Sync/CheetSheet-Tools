@@ -49,7 +49,4 @@ hashcat -a 0 -m 0 1b0556a75770563578569ae21392630c /usr/share/wordlists/rockyou.
 ```
 hashcat -a 0 -m 0 1b0556a75770563578569ae21392630c /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/combinator.rule
 ```
-Mas reglas aqui 
-```
-ls -l /usr/share/hashcat/rules
-```
+
