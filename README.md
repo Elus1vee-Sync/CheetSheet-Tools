@@ -11,6 +11,9 @@ A technical quick-reference document that consolidates commands, parameters, pra
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Hashcat.md">
     <img src="https://linuxsecurity.com/images/articles/features/hashcat_logo.png" width="50"></a>
 
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/NetExec.md">
+    <img src="https://www.netexec.wiki/~gitbook/image?url=https%3A%2F%2F361548579-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fb0qbsNvsXjRTsQcNipGM%252Fuploads%252Fgit-blob-728a8490edb22cdee9a338ce4e5217e58e9e875b%252FNetExec-Logo-White-Outlined.png%3Falt%3Dmedia&width=768&dpr=3&quality=100&sign=628630ff&sv=2" width="140"></a>
+
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Metasploit.md">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINUizi44XOMcudPSNTii4W2jHLn_DjnI2UQ&s" width="47"></a>
     
@@ -20,6 +23,5 @@ A technical quick-reference document that consolidates commands, parameters, pra
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/ReverseShells.md">
     <img src="https://raw.githubusercontent.com/3v4Si0N/HTTP-revshell/master/images/logo.png" width="70"></a>
 
-<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/NetExec.md">
-    <img src="https://www.netexec.wiki/~gitbook/image?url=https%3A%2F%2F361548579-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fb0qbsNvsXjRTsQcNipGM%252Fuploads%252Fgit-blob-728a8490edb22cdee9a338ce4e5217e58e9e875b%252FNetExec-Logo-White-Outlined.png%3Falt%3Dmedia&width=768&dpr=3&quality=100&sign=628630ff&sv=2" width="140"></a>
+
 
