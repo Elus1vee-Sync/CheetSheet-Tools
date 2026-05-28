@@ -18,3 +18,15 @@
 ````
 john --single passwd
 ````
+```
+❯ john --single passwd
+Using default input encoding: UTF-8
+Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 128/128 SSE2 2x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Will run 6 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+NAITSABES        (r0lf)     
+1g 0:00:00:00 DONE (2026-05-28 21:22) 6.250g/s 2700p/s 2700c/s 2700C/s FL0RR..rSebastiannaitsabeSr
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+```
