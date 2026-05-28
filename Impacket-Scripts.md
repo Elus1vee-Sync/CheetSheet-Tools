@@ -1,4 +1,4 @@
-<h1 align="center">Impacket Tools Cheat Sheet</h1>
+<h1 align="center">Impacket Scripts Cheat Sheet</h1>
 
 <p align="center">
   Fast reference guide for Active Directory exploitation, remote code execution, credential dumping, and Kerberos attacks using Impacket scripts.
