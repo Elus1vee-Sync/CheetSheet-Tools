@@ -18,7 +18,7 @@ A technical quick-reference document that consolidates commands, parameters, pra
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINUizi44XOMcudPSNTii4W2jHLn_DjnI2UQ&s" width="47"></a>
 
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Kerbrute.md">
-    <img src="https://media.licdn.com/dms/image/v2/D5612AQFzbbri9u6Z3A/article-cover_image-shrink_600_2000/B56ZncyFEtI4AQ-/0/1760345740056?e=2147483647&v=beta&t=P0eGpP2AJ3FPBSD7kYbpgnUu3k4xiYYPwTTgZ7V7U30" width="80"></a>
+    <img src="https://media.licdn.com/dms/image/v2/D5612AQFzbbri9u6Z3A/article-cover_image-shrink_600_2000/B56ZncyFEtI4AQ-/0/1760345740056?e=2147483647&v=beta&t=P0eGpP2AJ3FPBSD7kYbpgnUu3k4xiYYPwTTgZ7V7U30" width="85"></a>
     
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/John the Ripper.md">
     <img src="https://srv.latostadora.com/designall.dll/john-the-ripper-logo--i:14138558805414138520;d:588054;w:240;b:FFFFFF;m:1;ha:ae67dea1ce5dddb3b033c973e7eaf411.jpg" width="47"></a>
