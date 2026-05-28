@@ -11,3 +11,22 @@
   <img src="https://img.shields.io/badge/OffSec-GPU_Cracking-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+- Previamente siempre debemos identificar el tipo de Hash.
+
+````
+  hashid -m '$1$FNr44XZC$wQxY6HHLrgrGX0e1195k.1'
+````
+
+```
+Analyzing '$1$FNr44XZC$wQxY6HHLrgrGX0e1195k.1'
+[+] MD5 Crypt [Hashcat Mode: 500]
+[+] Cisco-IOS(MD5) [Hashcat Mode: 500]
+[+] FreeBSD MD5 [Hashcat Mode: 500]
+```
+
+- Cracking Hash MD5
+
+````
+hashcat -a 0 -m 0 81dc9bdb52d04dc20036dbd8313ed055 /usr/share/wordlists/rockyou.txt
+````
