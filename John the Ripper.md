@@ -56,8 +56,11 @@ john --incremental hash.txt
 [+] Haval-128 [JtR Format: haval-128-4]
 ```
 
+john --format=zip --wordlist=/usr/share/wordlists/rockyou.txt hash_zip.txt
+
 | Hash Format | Example Command | Description |
 | :--- | :--- | :--- |
+| **`zip`** | `john --format=zip hashes.txt` | ZIP (WinZip) password hashes |
 | **`afs`** | `john --format=afs hashes.txt` | AFS (Andrew File System) password hashes |
 | **`bfegg`** | `john --format=bfegg hashes.txt` | bfegg hashes used in Eggdrop IRC bots |
 | **`bf`** | `john --format=bf hashes.txt` | Blowfish-based crypt(3) hashes |
@@ -118,4 +121,4 @@ john --incremental hash.txt
 | **`ssh`** | `john --format=ssh hashes.txt` | SSH (Secure Shell) password hashes |
 | **`sybasease`** | `john --format=sybasease hashes.txt` | Sybase ASE password hashes |
 | **`xsha`** | `john --format=xsha hashes.txt` | xsha (Extended SHA) password hashes |
-| **`zip`** | `john --format=zip hashes.txt` | ZIP (WinZip) password hashes |
+
