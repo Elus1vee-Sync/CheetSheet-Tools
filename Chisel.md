@@ -44,7 +44,7 @@ R: (Remote / Inverso): "Le voy a pedir un favor al servidor del atacante. Quiero
 :8080:: "El puerto que quiero que abra el atacante en su máquina es el 8080".
 :192.168.1.50:80: "Y cuando alguien en la máquina del atacante meta datos por ese puerto 8080, tú (máquina comprometida) recíbelos a través del puente y reenvíaselos al puerto 80 de la máquina interna 192.168.1.50".
 
-##Sockets
+## Sockets
 
 ```
 chisel server --port 8000 --reverse
