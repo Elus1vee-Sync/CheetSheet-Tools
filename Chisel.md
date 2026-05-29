@@ -11,3 +11,8 @@
   <img src="https://img.shields.io/badge/OffSec-Networks-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+## Chisel es un único archivo ejecutable que funciona en dos modos:
+
+  Server (El que recibe): Se ejecuta en la máquina que va a escuchar las conexiones.
+  Client (El que inicia): Se ejecuta en la máquina que se conecta al servidor y define qué puertos quiere tunelizar.
