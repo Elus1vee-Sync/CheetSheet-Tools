@@ -1,4 +1,4 @@
-<h1 align="center">JoomlaScan / JoomScan Cheat Sheet</h1>
+<h1 align="center">JoomScan / JoomScan Cheat Sheet</h1>
 
 <p align="center">
   Fast reference guide for Joomla CMS enumeration, vulnerable component detection, firewall identification, and backup file discovery.
