@@ -33,3 +33,6 @@ chisel client 10.10.10.5:8000 8001:192.168.1.50:3306
 > Recuerda 10.10.10.5 es la maquina objetivo. Resultado: Ahora, si vas al puerto 8001 de tu propia máquina (localhost:8001), estarás hablando directamente con el puerto 3306 de la máquina interna oculta.
 
 ## Remote Port Forwarding
+```
+chisel client 10.10.10.5:8000 R:8080:192.168.1.100:80
+```
