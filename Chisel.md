@@ -15,4 +15,5 @@
 ## Chisel es un único archivo ejecutable que funciona en dos modos:
 
   >Server (El que recibe): Se ejecuta en la máquina que va a escuchar las conexiones.
+<br>
   >Client (El que inicia): Se ejecuta en la máquina que se conecta al servidor y define qué puertos quiere tunelizar.
