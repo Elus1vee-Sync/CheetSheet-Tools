@@ -11,3 +11,6 @@
   <img src="https://img.shields.io/badge/OffSec-Pivoting-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+## socat [opciones] <dirección-origen> <dirección-destino>
+
