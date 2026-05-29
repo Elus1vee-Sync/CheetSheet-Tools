@@ -26,18 +26,24 @@
 ```
 enum4linux -a 10.10.10.10
 ```
-
+```
 enum4linux -S 10.10.10.10
-
+```
+```
 enum4linux -U 10.10.10.10
-
+```
+```
 enum4linux -G 10.10.10.10
-
+```
+```
 enum4linux -P 10.10.10.10
-
+```
+```
 enum4linux -o 10.10.10.10
-
+```
+```
 enum4linux -u "guest" -p "" -a 10.10.10.10
-
+```
+```
 enum4linux -r 10.10.10.10
-
+```
