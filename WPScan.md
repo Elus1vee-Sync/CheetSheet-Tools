@@ -16,3 +16,7 @@
 wpscan --url http://sitio-web.com -e vp,vt,u,tt
 ```
 
+> Lo mejor siempre es con un API_TOKEN ya que obtiene mas info actualizada.
+```
+wpscan --url http://sitio-web.com --api-token TU_API_TOKEN_AQUÍ
+```
