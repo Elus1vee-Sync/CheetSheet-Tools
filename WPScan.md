@@ -24,3 +24,7 @@ wpscan --url http://sitio-web.com --api-token TU_API_TOKEN_AQUÍ
 ```
 wpscan --url http://sitio-web.com --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 ```
+## Via Sockets / Proxys
+```
+wpscan --url http://sitio-web.com --proxy socks5://127.0.0.1:9050
+```
