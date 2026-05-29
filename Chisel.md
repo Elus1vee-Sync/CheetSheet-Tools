@@ -27,6 +27,7 @@ chisel server --port 8000 --reverse
 chisel server --port 8000 --reverse --tls-key clave.key --tls-cert certificado.crt
 ```
 
+> Resultado: Ahora, si vas al puerto 8001 de tu propia máquina (localhost:8001), estarás hablando directamente con el puerto 3306 de la máquina interna oculta.
 ```
 chisel client 10.10.10.5:8000 8001:192.168.1.50:3306
 ```
