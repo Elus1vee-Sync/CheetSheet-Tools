@@ -20,3 +20,7 @@ wpscan --url http://sitio-web.com -e vp,vt,u,tt
 ```
 wpscan --url http://sitio-web.com --api-token TU_API_TOKEN_AQUÍ
 ```
+## Avoid firewalls
+```
+wpscan --url http://sitio-web.com --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+```
