@@ -18,3 +18,15 @@
 <br>
 
   > Client (El que inicia): Se ejecuta en la máquina que se conecta al servidor y define qué puertos quiere tunelizar.
+
+```
+chisel server --port 8000 --reverse
+```
+
+```
+chisel server --port 8000 --reverse --tls-key clave.key --tls-cert certificado.crt
+```
+
+```
+chisel client 10.10.10.5:8000 8001:192.168.1.50:3306
+```
