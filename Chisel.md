@@ -64,4 +64,4 @@ socks5 127.0.0.1 1080
 ```
 proxychains nmap -sT -Pn 192.168.1.0/24
 ```
-Podremos scanear la red por la segunda tarjeta de red de la maquina comprometida.
+> Podremos scanear la red por la segunda tarjeta de red de la maquina comprometida.
