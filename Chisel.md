@@ -36,3 +36,4 @@ chisel client 10.10.10.5:8000 8001:192.168.1.50:3306
 ```
 chisel client 10.10.10.5:8000 R:8080:192.168.1.100:80
 ```
+> Resultado: Se abrirá el puerto 8080 en tu máquina de atacante. Todo el que se conecte ahí será redirigido al puerto 80 de la máquina interna 192.168.1.100.
