@@ -61,3 +61,6 @@ nano /etc/proxychains4.conf
 ```
 socks5 127.0.0.1 1080
 ```
+```
+proxychains nmap -sT -Pn 192.168.10.0/24
+```
