@@ -53,3 +53,11 @@ chisel server --port 8000 --reverse
 ```
 chisel client 10.10.10.5:8000 R:socks
 ```
+> Chisel abrirá por defecto un proxy SOCKS5 en el puerto 1080 de tu máquina de atacante.
+
+```
+nano /etc/proxychains4.conf
+```
+```
+socks5 127.0.0.1 1080
+```
