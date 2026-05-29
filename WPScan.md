@@ -11,3 +11,8 @@
   <img src="https://img.shields.io/badge/OffSec-CMS_Attacks-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+```
+wpscan --url http://sitio-web.com -e vp,vt,u,tt
+```
+
