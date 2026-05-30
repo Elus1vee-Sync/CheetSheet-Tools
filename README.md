@@ -51,5 +51,5 @@ A technical quick-reference document that consolidates commands, parameters, pra
     <img src="https://miro.medium.com/1*fSFKwxcjG1cRtTTXz2TmLg.png" width="75"></a>
 
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/ldapdomaindump.md">
-    <img src="https://www.id123.io/wp-content/uploads/2020/08/LDAP-logo@3x.png" width="55"></a>
+    <img src="https://www.id123.io/wp-content/uploads/2020/08/LDAP-logo@3x.png" width="60"></a>
     
