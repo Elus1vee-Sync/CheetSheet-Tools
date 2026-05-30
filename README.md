@@ -52,4 +52,8 @@ A technical quick-reference document that consolidates commands, parameters, pra
 
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/ldapdomaindump.md">
     <img src="https://www.id123.io/wp-content/uploads/2020/08/LDAP-logo@3x.png" width="60"></a>
+
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/Rpclient.md">
+    <img src="https://www.kali.org/images/kali-tools-icon-missing.svg" width="40"></a>
+    
     
