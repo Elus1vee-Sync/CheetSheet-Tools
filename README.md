@@ -47,3 +47,7 @@ A technical quick-reference document that consolidates commands, parameters, pra
 <a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/BloodHound.md">
     <img src="https://www.ngi.es/wp-content/uploads/2021/07/bloodhound-logo.png" width="50"></a>
 
+<a href="https://github.com/Elus1vee-Sync/CheetSheet-Tools/blob/main/ldapsearch.md">
+    <img src="https://miro.medium.com/1*fSFKwxcjG1cRtTTXz2TmLg.png" width="75"></a>
+
+    
