@@ -13,17 +13,17 @@
 </p>
 
 
-# Enumeración por Sesión Nula (Sin credenciales)
+## Enumeración por Sesión Nula (Sin credenciales)
 ```
 smbclient -L //10.129.14.128/ -N
 ```
 
-# Enumeración con credenciales locales de la máquina
+## Enumeración con credenciales locales de la máquina
 ```
 smbclient -L //10.129.14.128/ -U "Administrator%ClaveLocal123!"
 ```
 
-# Enumeración con credenciales del Dominio (Active Directory)
+## Enumeración con credenciales del Dominio (Active Directory)
 ```
 smbclient -L //10.129.14.128/ -U "miempresa.local\juan.perez%Primavera2026*"
 ``` 
