@@ -11,3 +11,19 @@
   <img src="https://img.shields.io/badge/OffSec-Recon-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+
+# Enumeración por Sesión Nula (Sin credenciales)
+```
+smbclient -L //10.129.14.128/ -N
+```
+
+# Enumeración con credenciales locales de la máquina
+```
+smbclient -L //10.129.14.128/ -U "Administrator%ClaveLocal123!"
+```
+
+# Enumeración con credenciales del Dominio (Active Directory)
+```
+smbclient -L //10.129.14.128/ -U "miempresa.local\juan.perez%Primavera2026*"
+``` 
