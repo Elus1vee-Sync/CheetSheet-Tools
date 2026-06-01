@@ -67,7 +67,7 @@ nxc smb 192.168.1.10 -u /ruta/usuarios.txt -p '' -d miempresa.local --user-as-pa
 ```
 >Comprueba mismo usuario y contraseña
 
-## Enumetarion users
+## Enumetarion users + groups + computers + policy
 
 ```
 nxc smb 192.168.1.50 -u 'user1' -p 'Password123' --local-auth --users
@@ -76,7 +76,15 @@ nxc smb 192.168.1.50 -u 'user1' -p 'Password123' --local-auth --users
 ```
 nxc smb 192.168.1.10 -u 'user1' -p 'Password123' -d miempresa.local --users
 ```
-
+```
+nxc smb 192.168.1.10 -u 'user1' -p 'Password123' -d miempresa.local --groups
+```
+```
+nxc smb 192.168.1.10 -u 'user1' -p 'Password123' -d miempresa.local --pass-pol
+```
+```
+nxc smb 192.168.1.10 -u 'user1' -p 'Password123' -d miempresa.local --computers
+```
 ## Dump hash and Credentials
 
 ```
