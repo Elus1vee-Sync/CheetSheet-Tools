@@ -31,6 +31,9 @@ rpcclient -U "" 192.168.1.50 -c "enumdomusers" | grep "user:"
 ```
 for i in $(seq 500 1100);do rpcclient -N -U "" 10.129.14.128 -c "queryuser 0x$(printf '%x\n' $i)" | grep "User Name\|user_rid\|group_rid" && echo "";done
 ```
+
+</br>
+
 > A veces el comando global enumdomusers está capado o bloqueado por el servidor, pero el endpoint queryuser individual sigue respondiendo. Este script "salta" esa restricción barriendo los IDs uno a uno de forma automática.
 
 </br>
