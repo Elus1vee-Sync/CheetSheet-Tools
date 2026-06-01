@@ -18,6 +18,11 @@ ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primave
 ```
 
 ```
+ldapsearch -x -H ldap://192.168.1.10 -b "" -s base
+```
+> Listar el RootDSE (Enumeración 100% Anónima)
+
+```
 ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(objectClass=user)" sAMAccountName
 ```
 > Extrae todos los usuarios
@@ -67,7 +72,12 @@ ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primave
 ```
 > Buscar cuentas configuradas para Shadow Credentials
 
+
 ## Search delegation
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "CN=System,DC=miempresa,DC=local" "(objectClass=trustedDomain)" trustPartner trustDirection
+```
+> Buscar Relaciones de Confianza Externas (Domain Trusts)
 
 ```
 ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(userAccountControl:1.2.840.113556.1.4.803:=524288)" sAMAccountName userAccountControl
