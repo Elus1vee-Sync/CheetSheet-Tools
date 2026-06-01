@@ -62,6 +62,11 @@ ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primave
 ```
 > Cuentas deshabilitadas pero activas en la red
 
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(msDS-KeyCredentialLink=*)" sAMAccountName msDS-KeyCredentialLink
+```
+> Buscar cuentas configuradas para Shadow Credentials
+
 ## Search delegation
 
 ```
