@@ -67,6 +67,11 @@ nxc smb 192.168.1.10 -u /ruta/usuarios.txt -p '' -d miempresa.local --user-as-pa
 ```
 >Comprueba mismo usuario y contraseña
 
+## Parameter -k , autentication Kerberos
+```
+nxc smb srv-archivos.miempresa.local -u 'juan.perez' -p 'Primavera2026*' -d miempresa.local -k --shares
+```
+
 ## Command execution
 
 ```
