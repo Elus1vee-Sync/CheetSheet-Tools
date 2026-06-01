@@ -112,3 +112,15 @@ nxc smb 192.168.1.0/24 -M smbv1
 ```
 nxc smb 192.168.1.0/24 -M rpcblanksystem
 ```
+# Verificar vulnerabilidad dfscoerce (Abusa del protocolo DFS para forzar autenticación)
+```
+nxc smb 192.168.1.0/24 -M dfscoerce
+```
+# Verificar vulnerabilidad shadowcoerce (Abusa de los servicios de copia de sombra de volumen - VSS)
+```
+nxc smb 192.168.1.0/24 -M shadowcoerce
+```
+# Verificar vulnerabilidad printerbug (El clásico fallo del servicio de impresión de Windows)
+```
+nxc smb 192.168.1.0/24 -M printerbug
+```
