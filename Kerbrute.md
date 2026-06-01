@@ -14,7 +14,7 @@
 
 </br>
 
-> Rendimiento: Puedes acelerar los ataques usando el flag -t <hilos> (por defecto son 10). Ejemplo: -t 50.
+> Rendimiento: Puedes acelerar los ataques usando el -t <hilos> (por defecto son 10). Ejemplo: -t 50.
 
 </br>
 
