@@ -11,3 +11,21 @@
   <img src="https://img.shields.io/badge/OffSec-Network-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+## Enumeration null sesion / guest
+
+```
+nxc smb 192.168.1.50 -u '' -p ''
+```
+
+```
+nxc smb 192.168.1.50 -u '' -p '' --shares
+```
+
+```
+nxc smb 192.168.1.50 -u 'guest' -p '' --local-auth
+```
+
+```
+nxc smb 192.168.1.50 -u 'guest' -p '' --local-auth --shares
+```
