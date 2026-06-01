@@ -62,3 +62,24 @@ ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primave
 ```
 > Cuentas deshabilitadas pero activas en la red
 
+## Search delegation
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(msDS-AllowedToActOnBehalfOfOtherIdentity=*)" sAMAccountName msDS-AllowedToActOnBehalfOfOtherIdentity
+```
+> Buscar Delegación Restringida basada en Recursos (RBCD)
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(msDS-AllowedToDelegateTo=*)" sAMAccountName msDS-AllowedToDelegateTo
+```
+> Buscar Delegación Restringida Clásica (Constrained Delegation)
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "OU=Domain Controllers,DC=miempresa,DC=local" "(objectClass=computer)" name
+```
+> Listar todos los Controladores de Dominio (DCs)
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(&(objectClass=computer)(|(operatingSystem=*2008*)(operatingSystem=*2012*)(operatingSystem=*Windows 7*)))" name operatingSystem
+```
+> Localizar Sistemas Operativos obsoletos (Legacy) de forma rápida
