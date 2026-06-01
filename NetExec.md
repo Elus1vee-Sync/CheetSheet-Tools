@@ -34,6 +34,12 @@ nxc smb 192.168.1.50 -u 'guest' -p '' --local-auth
 nxc smb 192.168.1.50 -u 'guest' -p '' --local-auth --shares
 ```
 
+
+```
+nxc smb 192.168.1.0/24 -u 'juan.perez' -p 'Primavera2026*' -d miempresa.local -M spider_plus -o OUTPUT_DIR=/tmp/spider_results
+```
+> recorre los recursos compartidos, mapea de forma recursiva cada archivo y carpeta que encuentra, y genera un reporte estructurado en formato .json dentro de la carpeta /tmp/spider_results.
+
 ## Password Spraying
 
 ```
