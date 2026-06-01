@@ -11,3 +11,33 @@
   <img src="https://img.shields.io/badge/OffSec-AD_Exploitation-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local"
+```
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(objectClass=user)" sAMAccountName
+```
+> Extrae todos los usuarios
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(memberOf=CN=Domain Admins,CN=Users,DC=miempresa,DC=local)" sAMAccountName
+```
+> Muestra todos los miembros del grupo Domain Admins
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(description=*password*)" sAMAccountName description
+```
+> Muestra las descripciones de los usuarios , para saber el ROL o contraseña
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(objectClass=computer)" name operatingSystem
+```
+> Inventario de Servidores, PCs y Sistemas operativos
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(userAccountControl:1.2.840.113556.1.4.803:=65536)" sAMAccountName
+```
+> Usuarios con contraseña que NUMCA expira
