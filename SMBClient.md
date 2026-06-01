@@ -28,6 +28,8 @@ smbclient -L //10.129.14.128/ -U "Administrator%ClaveLocal123!"
 smbclient -L //10.129.14.128/ -U "miempresa.local\juan.perez%Primavera2026*"
 ``` 
 
+</br>
+
 | Comando | Descripción / Acción |
 | :--- | :--- |
 | `ls` o `dir` | Lista los archivos y carpetas del directorio actual. |
