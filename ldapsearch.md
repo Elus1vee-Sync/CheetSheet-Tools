@@ -53,6 +53,11 @@ ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primave
 > Cuentas vulnerables a AS-REP Roasting (Sin preautenticacion de Kerberos)
 
 ```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(msDS-SupportedEncryptionTypes=*)" sAMAccountName msDS-SupportedEncryptionTypes
+```
+> Buscar cuentas con preautenticación Kerberos explícita (AES vs DES)
+
+```
 ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(userAccountControl:1.2.840.113556.1.4.803:=2)" sAMAccountName
 ```
 > Cuentas deshabilitadas pero activas en la red
