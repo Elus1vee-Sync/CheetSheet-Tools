@@ -41,3 +41,24 @@ ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primave
 ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(userAccountControl:1.2.840.113556.1.4.803:=65536)" sAMAccountName
 ```
 > Usuarios con contraseña que NUMCA expira
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(&(objectClass=user)(servicePrincipalName=*))" sAMAccountName servicePrincipalName
+```
+> Cuentas vulnerables a Kerberoasting (SPN configurado)
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(userAccountControl:1.2.840.113556.1.4.803:=4194304)" sAMAccountName
+```
+> Cuentas vulnerables a AS-REP Roasting (Sin preautenticacion de Kerberos)
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(userAccountControl:1.2.840.113556.1.4.803:=524288)" sAMAccountName userAccountControl
+```
+> Busca delegaciones sin restricciones (Unconstrained Delegation)
+
+```
+ldapsearch -x -H ldap://192.168.1.10 -D 'juan.perez@miempresa.local' -w 'Primavera2026*' -b "DC=miempresa,DC=local" "(userAccountControl:1.2.840.113556.1.4.803:=2)" sAMAccountName
+```
+> Cuentas deshabilitadas pero activas en la red
+
