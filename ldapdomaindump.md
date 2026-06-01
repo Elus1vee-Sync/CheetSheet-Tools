@@ -11,3 +11,19 @@
   <img src="https://img.shields.io/badge/OffSec-Internal_Attacks-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+>  Herramienta que vuelca toda la estructura de Active Directory (LDAP) a archivos visuales HTML y JSON. Funciona con cualquier usuario del dominio (no requiere admin).
+
+```
+ldapdomaindump -u 'miempresa.local\juan.perez' -p 'Primavera2026*' 192.168.1.10
+```
+
+```
+ldapdomaindump -u 'miempresa.local\juan.perez' -p 'Primavera2026*' --ldaps 192.168.1.10
+```
+
+```
+mkdir /tmp/ldap_loot
+ldapdomaindump -u 'miempresa.local\juan.perez' -p 'Primavera2026*' -o /tmp/ldap_loot 192.168.1.10
+```
+
