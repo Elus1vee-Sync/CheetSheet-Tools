@@ -31,6 +31,8 @@ impacket-smbexec -k -no-pass dominio.local/usuario_admin@NOMBRE_HOST_FQDN
 > Autenticación con Tickets Kerberos (Pass-the-Ticket)
 > Si dispones de un ticket de servicio Kerberos válido (.ccache) guardado en tu sesión de Linux:
 
+</br>
+
 ```
 impacket-smbexec -hashes :HASH_NT dominio.local/usuario_admin@IP_OBJETIVO -mode SERVER
 ```
