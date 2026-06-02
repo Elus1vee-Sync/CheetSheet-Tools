@@ -14,6 +14,10 @@
 
 
 ```
+impacket-smbserver SMBfolder /ruta/carpeta/local/
+```
+
+```
 impacket-smbserver SMBfolder $(pwd) -smb2support
 ```
 
