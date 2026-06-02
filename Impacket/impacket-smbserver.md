@@ -11,3 +11,12 @@
   <img src="https://img.shields.io/badge/OffSec-Exfiltration_--_Hash_Capture-111827?style=for-the-badge&logoColor=FF003C">
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
+
+
+```
+impacket-smbserver SMBfolder $(pwd) -smb2support
+```
+
+```
+impacket-smbserver SMBfolder $(pwd) -smb2support -username pwn -password pwn
+```
