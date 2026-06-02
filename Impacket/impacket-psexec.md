@@ -29,3 +29,10 @@ impacket-psexec -k -no-pass dominio/usuario@IP_OBJETIVO
 ```
 > Usando Tickets de Kerberos (Pass-the-Ticket)
 > Si ya has solicitado un ticket Kerberos válido y lo tienes cargado en tu variable de entorno (export KRB5CCNAME=/ruta/ticket.ccache):
+
+
+## Si estas en un entorno con Antivirus / EDR
+
+impacket-wmiexec: Utiliza WMI (Windows Management Instrumentation) para ejecutar comandos. Es mucho más silencioso porque no crea servicios ni sube ejecutables.
+
+impacket-smbexec: Crea un servicio de Windows temporal pero, en lugar de subir un ejecutable, utiliza la propia terminal nativa (cmd.exe) para redirigir la entrada y salida mediante archivos temporales compartidos.
