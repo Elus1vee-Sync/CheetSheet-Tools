@@ -33,6 +33,6 @@ impacket-psexec -k -no-pass dominio/usuario@IP_OBJETIVO
 
 ## Si estas en un entorno con Antivirus / EDR
 
-impacket-wmiexec: Utiliza WMI (Windows Management Instrumentation) para ejecutar comandos. Es mucho más silencioso porque no crea servicios ni sube ejecutables.
+> impacket-wmiexec: Utiliza WMI (Windows Management Instrumentation) para ejecutar comandos. Es mucho más silencioso porque no crea servicios ni sube ejecutables.
 
-impacket-smbexec: Crea un servicio de Windows temporal pero, en lugar de subir un ejecutable, utiliza la propia terminal nativa (cmd.exe) para redirigir la entrada y salida mediante archivos temporales compartidos.
+> impacket-smbexec: Crea un servicio de Windows temporal pero, en lugar de subir un ejecutable, utiliza la propia terminal nativa (cmd.exe) para redirigir la entrada y salida mediante archivos temporales compartidos.
