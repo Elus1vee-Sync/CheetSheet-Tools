@@ -35,6 +35,12 @@ nxc smb 192.168.1.50 -u 'guest' -p '' --local-auth --shares
 ```
 
 ## Download Shares
+
+```
+nxc smb 192.168.1.50 -u Uusario -p 'Pass' --spider HR --content --pattern "Administrator"
+```
+> Buscara dentro de cada fichero dentro del recurso compartido HR el patron "Administrator". Es RECURSIVO
+
 ```
 nxc smb 192.168.1.0/24 -u 'juan.perez' -p 'Primavera2026*' -d miempresa.local -M spider_plus -o OUTPUT_DIR=/tmp/spider_results
 ```
