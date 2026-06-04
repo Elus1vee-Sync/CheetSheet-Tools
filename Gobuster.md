@@ -47,7 +47,7 @@ gobuster dns -d mi-objetivo.com -w /usr/share/wordlists/SecLists/Discovery/DNS/s
 
 ## Virtualhosting
 ```
-gobuster vhost -u http://10.10.10.15 -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+gobuster vhost -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt --url http://mi-objetivo.com
 ```
 
 | Parámetro / Bandera | Descripción | Ejemplo de Uso |
