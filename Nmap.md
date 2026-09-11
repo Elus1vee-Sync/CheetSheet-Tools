@@ -42,6 +42,11 @@ nmap 10.10.19.120 -sU -p- --min-rate 5000 -oN AllPorts
 ````markdown
 nmap 10.10.19.120 -sU -p- -oN AllPorts
 ````
+
+````markdown
+nmap 10.10.19.120 -sU --top-ports 20 -oN AllPorts
+````
+
 ## Recon services
 
 ````markdown
