@@ -46,6 +46,12 @@ hashcat -a 0 -m 13100 krb_tgs.txt /usr/share/wordlists/rockyou.txt
 ```
 hashcat -m 3200 hash.txt palabra.txt -r /usr/share/hashcat/rules/best66.rule 
 ```
+
+```
+hashcat -r /usr/share/hashcat/rules/best66.rule palabra.txt --stdout > lista_generada.txt
+```
+> Generar lista de posibles contraseñas en base a una palabra
+
 ```
 hashcat -a 0 -m 0 1b0556a75770563578569ae21392630c /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/combinator.rule
 ```
